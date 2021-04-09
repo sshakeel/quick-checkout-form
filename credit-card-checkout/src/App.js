@@ -1,4 +1,4 @@
-import CreditCardForm from './CreditCardForm';
+import CreditCardForm from './components/CreditCardForm';
 
 function App() {
   return (
