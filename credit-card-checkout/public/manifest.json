@@ -1,0 +1,8 @@
+{
+  "short_name": "Affirm: Easy Checkout",
+  "name": "Affirm: Easy Checkout",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0f72e5",
+  "background_color": "#ffffff"
+}
