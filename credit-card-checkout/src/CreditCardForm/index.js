@@ -12,6 +12,7 @@ const clearfix = css`
 const Card = styled.div`
   background: #f0f0f0;
   border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; // "borrowed" from Stripe
   margin: 30px auto 0;
   max-width: 400px;
   padding: 30px;
@@ -96,6 +97,7 @@ const Button = styled.button`
   border: 0;
   border-radius: 10px;
   color: #fff;
+  cursor: pointer;
   font-size: inherit;
   height: 45px;
   margin-top: 30px;
