@@ -1,3 +1,13 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+/* Source: Paul Irish - https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
