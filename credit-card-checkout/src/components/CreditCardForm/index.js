@@ -206,14 +206,6 @@ class CreditCardForm extends React.Component {
           
           <SubmitButton onClick={(e) => this.handleSubmit(e)}>Submit</SubmitButton>
         </form>
-        <div>
-          {/* {formErrors} */}
-          <p>{this.state.fullName}</p>
-          <p>{this.state.cardNumber}</p>
-          <p>{this.state.expMonth}</p>
-          <p>{this.state.expYear}</p>
-          <p>{this.state.cvv}</p>
-        </div>
       </Card>
     );
   }

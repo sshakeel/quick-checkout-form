@@ -1,3 +1,6 @@
+// Cotains a collection of form specific components
+// This can also be expanded into a full blown Form component as needed
+
 import styled from 'styled-components';
 
 import { clearfix } from '../styledComponents';

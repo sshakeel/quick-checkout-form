@@ -1,3 +1,5 @@
+// Collection of commonly used styled components
+
 import styled, { css } from 'styled-components';
 
 // reuseable clearfix CSS to avoid floating components from collapsing within a container
